@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+body {
+    width: 30%;
+    position: relative;
+    margin: 0 auto;
+    font-family:serif;
+    /*aqui ta centralizando o curriculo*/
+    background-image: url(https://lh3.googleusercontent.com/pw/AL9nZEXI4YYDgMWi6-Gp2tScxbpj_qpo8BjWVJDKVBWX2VNVfyHm2bxhQdfjXHcsWA9XonaMWPFux40gSGqZCPoNa9adnyAMSIJRKkBZ-ZMz7OMLVMSJbX1mkmdoeYJZz6NtCytfXpwEhz_j9rFatjSl39MuxQ=w431-h753-no?authuser=0);
+    background-repeat: no-repeat;
+    background-size: 42.5%;
+    background-position: center;
+/*    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 2px solid #dbdbdb;
+    border-radius: 5%; */
+}
+
+.curriculo {
+    margin-top: -10%;
+		/* deixando alinhado com a foto */
+}
+
+.logos img {
+  width: 40px;
+  height: 40px;
+}
+
+
+.fotoPerfil {
+    float: left;  
+		/* para deixar a foto ao lado do texto */
+    border-radius: 100%;
+		/* para deixar a foto redonda */
+    width: 200px;
+    height: 200px;
+    margin-right: 5%;
+}
+
+hr {
+    margin-top: -3%;
+    /* para aproximar do h2 */
+    border-color: black;
+    /* para mudar a cor */
+    /* size: 4px; */
+}
+
+.cursos p {
+    margin-top: -4%;
+}
+
+.mudCor {
+    color: black;
+		/* a cor original do texto*/
+}
+
+.mudCor:hover {
+    color: #3400FF;
+		/* a cor que fica quando passa o mouse em cima */
+}
+
+
+.icones img {
+  width: 50px;
+  height: 50px;
+}
+
+footer img {
+    padding-left: 10%;
+		/* dando espaço entre os icons */
+}
