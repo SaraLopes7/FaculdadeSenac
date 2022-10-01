@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Atividade Carrinho de Compras </title>
+</head>
+<body>
+    <header>
+        <a href="#">contato</a>
+        <a href="#">promoções</a>
+        <a href="#">home</a>
+    </header>   
+    <div class="container">
+      <div class="panel panel-default">
+        <div ><input class="barradePesquisa" type="text"><img class="pesquisa" src="https://cdn-icons-png.flaticon.com/512/751/751463.png" alt="">
+        </div>
+        <div id="home" class="tab-pane fade in active">
+          <div class="panel-body">
+            <div class="nomeProduto">
+              <p>Nome do Produto: Chocolate Perfeito</p>
+              <img src="https://cdn-icons-png.flaticon.com/512/4062/4062111.png">
+            </div>
+            <div class="detalhesProduto">
+              <p class="detalhes">Detalhes do Produto:</p>
+              <p class="osDetalhes">A razão pela qual gostamos tanto de chocolate pode estar relacionada à nostalgia dos nossos primeiros anos de vida. O sucesso do chocolate vai muito além do sabor. Uma série de fatores como a presença de substâncias químicas psicoativas e estimulantes e a textura característica contribuem para sua irresistibilidade.</p>
+            </div>
+            <div class="preco">
+              <p class="preconome">Preço: R$ 713,00</p>
+              <!-- Tipo: <select name="tamanho" id="tamanho">
+                      <option value="P">Pequeno</option>
+                      <option value="M">Médio</option>
+                      <option value="G">Grande</option> 
+                    </select> -->
+              Quantidade: <input class="quantidade" type="number" name="quantidade" id="quantidade">
+              <input class="adcionarCarrinho" type="button" value="Adcionar ao carrinho" onclick="comprar ()">
+              <p class="total">Total:</p>
+              <p id="total2"></p>
+            </div>
+          </div>
+      </div>
+      </div>  
+        <ul class="nav nav-tabs">
+          <li class="active"><a data-toggle="tab" href="#videos">Vídeos</a></li>
+          <li><a data-toggle="tab" href="#fotos">Fotos</a></li>
+          <li><a data-toggle="tab" href="#comentarios">Comentários</a></li>
+        </ul>
+      
+        <div class="tab-content">
+          <div id="videos" class="tab-pane fade in active">
+            <h3>Vídeos</h3>
+            <iframe id="video1" src="https://giphy.com/embed/xT1R9yvXiMMXE4t3Zm" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            <iframe id="video2" src="https://giphy.com/embed/oDJss7tbDEzZu" width="480" height="265" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+          </div>
+          <div id="fotos" class="tab-pane fade">
+            <h3>Fotos</h3>
+            <img src="https://chocolatrasonline.com.br/wp-content/uploads/2019/02/barras-branco-amargo-e-ao-leite.jpg" alt="">
+            <img src="https://docepedia.com/wp-content/uploads/2019/01/tipos-de-chocolate-d.jpg" alt="">
+          </div>
+          <div id="comentarios" class="tab-pane fade">
+            <h3>Comentários</h3>
+            <div class="comentario1">
+              <img src="https://cdn-icons-png.flaticon.com/512/1090/1090806.png" alt=""><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            </div>
+            <div class="comentario2">
+              <img src="https://cdn-icons-png.flaticon.com/512/1090/1090740.png" alt=""><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus corrupti, et dicta in accusantium similique saepe nam iusto numquam fuga ex.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="script.js"></script>  
+      <footer>
+        
+      </footer>
+</body>
+</html>

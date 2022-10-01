@@ -1,0 +1,192 @@
+@charset "utf8";
+
+* {
+    margin: 0%;
+}
+
+/* Tratando do header */
+
+header a {
+    float: right;
+    padding: 1%;
+    margin-top: -2%;
+}
+
+header a:hover { /* p tirar o tracinho debaixo do link */
+    text-decoration: none;
+}
+
+header {
+    padding: 3.5rem 7%;
+    text-transform: uppercase;
+    font-size: 18px;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.container {
+    margin-top: 2%;
+}
+
+/* Tratando da barra de pesquisa */
+
+.pesquisa {
+    width: 18px;
+    margin: 0.5%;
+}
+
+.barradePesquisa {
+    width: 30%;
+    margin-left: 30%;
+    margin-top: 1%;
+}
+
+/* Tratando do produto */ 
+
+/* nome do produto e imagem */
+
+.nomeProduto {
+    width: 330px;
+    height: 170px;
+    border: 3px solid rgb(229, 228, 228);
+    border-radius: 30px;
+    padding: 2%;
+    margin-left: 14%;
+}
+
+.nomeProduto p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nomeProduto img {
+    width: 100px;
+    margin-left: 35%;
+}
+
+/* detalhes do produto */
+
+.detalhesProduto {
+    width: 450px;
+    height: 170px;
+    border: 3px solid rgb(229, 228, 228);
+    border-radius: 30px;
+    padding: 2%;
+    float: right;
+    margin-top: -15.5%;
+    margin-right: 14%;
+}
+
+.detalhes {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.detalhesProduto .osDetalhes  {
+    font-size: 12px;
+}
+
+/* preço do produto */ 
+
+.preco {
+    margin-left: 35%;
+    margin-top: 0.5%;
+}
+
+.preco .preconome {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.quantidade {
+    font-size: 15px;
+    font-weight: bold;
+    width: 15%;
+}
+
+.adcionarCarrinho {
+    border-radius: 10px;
+    border-color: rgb(203, 202, 202);
+}
+
+.total {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    margin-top: 0.5%;
+    padding-bottom: 3%;
+    margin-left: 4%;
+}
+
+/* onde vai aparecer o total da compra */
+
+#total2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: -8%;
+    margin-left: 13%;
+    padding-bottom: 0.5%;
+}
+
+/* Tratando do menu */
+
+#video1 {
+    padding-left: 2%;
+}
+
+#video2 {
+    padding-left: 2%;
+}
+
+#fotos img {
+    width: 480px;
+    height: 270px;
+    padding: 2%;
+    /* padding-left: 2%;
+    padding-bottom: 2%; */
+}
+
+#comentarios {
+
+}
+
+.comentario1 img {
+    width: 70px;
+}
+
+.comentario1 {
+    width: 1000px;
+    height: 150px;
+    border: 3px solid rgb(229, 228, 228);
+    border-radius: 30px;
+    padding: 2%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+.comentario2 img {
+    width: 70px;
+}
+
+.comentario2 {
+    width: 1000px;
+    height: 150px;
+    border: 3px solid rgb(229, 228, 228);
+    border-radius: 30px;
+    padding: 2%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+/* Tratando do Footer */ 
+
+footer {
+    padding: 3.5rem 7%;
+    background-color: aquamarine;
+}
+
+@media (max-width: 700px) {
+    .row, nav {   
+    flex-direction: column;
+    }
+}
