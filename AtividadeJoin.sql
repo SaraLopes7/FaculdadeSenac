@@ -10,7 +10,7 @@ USE postoinflamavel;
 SELECT em.nome "Nome Empregado", em.CPF "CPF Empregado", em.dataAdm "Data Admissao", em.salario "Salario Empregado", en.cidade "Cidade Moradia", t.numero "Numero Telefone"
 	FROM endereco AS en
 		JOIN empregado AS em ON em.CPF =  en.Empregado_CPF
-		JOIN telefone AS t ON t.Empregado_CPF = em.CPF
+		LEFT JOIN telefone AS t ON t.Empregado_CPF = em.CPF
 			WHERE dataAdm BETWEEN '2019-01-01' AND '2022-03-31'
 			ORDER BY dataAdm DESC;
             
