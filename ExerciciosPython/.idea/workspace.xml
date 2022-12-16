@@ -9,6 +9,18 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SitePI/projetopi/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SitePI/projetopi/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SitePI/projetopi/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../SitePI/projetopi/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SitePI/projetopi/src/Body.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SitePI/projetopi/src/Body.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SitePI/projetopi/src/Cadastro.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SitePI/projetopi/src/Cadastro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SitePI/projetopi/src/Footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SitePI/projetopi/src/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SitePI/projetopi/src/Header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SitePI/projetopi/src/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SitePI/projetopi/src/Login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SitePI/projetopi/src/Login.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,36 +47,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Aluno/Documents/CodingSenac/ExerciciosPython",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aluno/Documents/CodingSenac/ExerciciosPython&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.Exercicio6">
-    <configuration name="Exercicio2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ExerciciosPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Aluno\AppData\Local\Programs\Python\Python310\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercicios/Lista 02" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercicios/Lista 02/Exercicio2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Python.ex1">
     <configuration name="Exercicio3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ExerciciosPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,22 +182,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ex1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ExerciciosPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercicios/testes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercicios/testes/ex1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.ExerciciosPython" />
+      <item itemvalue="Python.ex1" />
       <item itemvalue="Python.Exercicio3" />
       <item itemvalue="Python.Exercicio4" />
       <item itemvalue="Python.Exercicio5" />
       <item itemvalue="Python.Exercicio6" />
-      <item itemvalue="Python.Exercicio2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex1" />
         <item itemvalue="Python.Exercicio6" />
         <item itemvalue="Python.Exercicio5" />
         <item itemvalue="Python.Exercicio4" />
         <item itemvalue="Python.Exercicio3" />
-        <item itemvalue="Python.Exercicio2" />
       </list>
     </recent_temporary>
   </component>
